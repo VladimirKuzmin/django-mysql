@@ -1,3 +1,7 @@
+from __future__ import (
+    absolute_import, division, print_function, unicode_literals
+)
+
 import django
 from django.db.models import Aggregate, CharField
 from django.utils.functional import cached_property

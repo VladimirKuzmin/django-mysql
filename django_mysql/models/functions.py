@@ -1,3 +1,7 @@
+from __future__ import (
+    absolute_import, division, print_function, unicode_literals
+)
+
 from django.db import DEFAULT_DB_ALIAS, connections
 from django.db.models import Field as DjangoField
 from django.db.models import CharField, IntegerField, TextField

@@ -3,6 +3,10 @@ Helpers that deal with the changes in Django over time, by either working
 before and after the change, or just failing at usage time rather than import
 time.
 """
+from __future__ import (
+    absolute_import, division, print_function, unicode_literals
+)
+
 import functools
 
 import django
